@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Text Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="box">
+    <h2>Text Analyzer Tool</h2>
+
+    <textarea id="inputText" placeholder="Type something..."></textarea>
+
+    <button onclick="analyze()">Analyze</button>
+
+    <div id="output">
+      <p>Characters: <span id="chars">0</span></p>
+      <p>Words: <span id="words">0</span></p>
+      <p>Reversed:</p>
+      <div id="reverse"></div>
+    </div>
+
+    <p id="msg"></p>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
